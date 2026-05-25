@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation"
 import { getCharacterByPage,getCharaterByName } from "../lib/api/Character"
 import { CharacterResponse } from "../types"
 import Pagination from "../components/Pagination/Pagination"
-import CharacterComp from "../components/CharacterC/CharactersC"
+import CharacterComp from "@/app/components/CharactersC/CharactersC"
 import FinderProps from "../components/FInder/Finder"
 import "./styles.css";
 
@@ -68,7 +68,7 @@ const CharacterPage=()=>{
                 {cha?.results.map((charac)=>(
 
                     <div key={charac.id}>
-                        <CharacterComp character={charac} onClick={()=> router.push(`/character/${charac.id}`)} showdetails={true}/>
+                        <CharacterComp character={charac} onClick={()=> router.push(`/character/${charac.id}`)} showdetails={false}/>
                     </div>
 
                 ))}

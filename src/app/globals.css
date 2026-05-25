@@ -26,8 +26,9 @@ button {
 .contenedor-tarjetas {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     align-items: center;
     text-align: center;
     background-color: blueviolet;
@@ -43,29 +44,14 @@ button {
 
 }
 
-.Contenedor{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.ButtonCharacters{
+.ButtonCharacters button{
     display: flex;
     justify-content: center;
+    flex-direction: row;
     align-items: center;
     text-align: center;
-    background-color: blueviolet;
+    background-color: black;
     color: white;
     font-weight: bold;
 }
 
-.ButtonLocations{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: blueviolet;
-    color: white;
-
-}

@@ -1,0 +1,25 @@
+.ContainerChulangan {
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    background-color: #FABADA;
+    border-radius: 205px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    gap: 100px;
+}
+
+.ContainerChulangano img {
+    border-radius: 50%;
+    height: 150px;
+}
+
+.InfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+}
+

@@ -57,8 +57,6 @@ const CharacterPage=()=>{
 
     return(
         <div className={"SwPlanetsContainer"}>
-
-            <h2 className={"SwPlanetsTitle"}> Zonas de Rick and Morty</h2>
             <FinderProps value={search} onChange={setSearch} handlCha={handlCha}/>
 
             {error && <h1>{error}</h1>}
