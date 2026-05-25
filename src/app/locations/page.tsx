@@ -56,7 +56,7 @@ const CharacterPage=()=>{
     }
 
     return(
-        <div className={"SwPlanetsContainer"}>
+        <div className={"ContainerLocations"}>
             <FinderProps value={search} onChange={setSearch} handlCha={handlCha}/>
 
             {error && <h1>{error}</h1>}

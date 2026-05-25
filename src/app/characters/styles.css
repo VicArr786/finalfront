@@ -2,8 +2,16 @@
 .ContainerCharacters {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     width: 100%;
     gap: 10px;
+}
+.ContainerLocations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    padding:10px;
+    text-align: center;
 }
