@@ -10,11 +10,9 @@ export default function RootLayout({
         <html>
         <body>
         <main>
-
-
             <nav className="Button"><Link href={"/characters"}> Characters</Link> </nav>
-            <nav className="Button">
-                <Link href={"/locations"}> Locations  </Link>
+            <nav className="Button"><Link href={"/locations"}> Locations  </Link>
+
 
             </nav>
 
